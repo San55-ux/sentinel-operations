@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sentinel Operations - Demo Video Showcase</title>
+  <style>
+    body {
+      font-family: "Times New Roman", Times, Georgia, serif;
+      background-color: #FFFFFF;
+      color: #111827;
+      margin: 0;
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .container {
+      max-width: 960px;
+      width: 100%;
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+    p {
+      color: #4B5563;
+      font-size: 1rem;
+      margin-bottom: 1.5rem;
+    }
+    .video-card {
+      border: 1px solid #E5E7EB;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+      background: #FAFAFA;
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+    }
+    video {
+      width: 100%;
+      height: auto;
+      border: 1px solid #D1D5DB;
+      background: #000000;
+    }
+    .btn-group {
+      display: flex;
+      gap: 1rem;
+      margin-top: 1.25rem;
+    }
+    .btn {
+      background-color: #111827;
+      color: #FFFFFF;
+      padding: 0.75rem 1.5rem;
+      font-size: 0.95rem;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 2px;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .btn-secondary {
+      background-color: #FFFFFF;
+      color: #111827;
+      border: 1px solid #D1D5DB;
+    }
+    .btn:hover {
+      opacity: 0.9;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Sentinel Operations - Demo Video Player</h1>
+    <p>Enterprise Supply Chain Audit & Risk Intelligence Platform Walkthrough</p>
+
+    <div class="video-card">
+      <video controls autoplay loop muted poster="/sentinel_demo_video.gif">
+        <source src="/sentinel_demo_video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+
+      <div class="btn-group">
+        <a href="/sentinel_demo_video.mp4" download="Sentinel_Operations_Demo_HD.mp4" class="btn">
+          ⬇ Download MP4 Video (HD - 1080p)
+        </a>
+        <a href="/sentinel_demo_video.gif" download="Sentinel_Operations_Demo.gif" class="btn btn-secondary">
+          ⬇ Download Animated GIF
+        </a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
