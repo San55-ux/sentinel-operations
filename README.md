@@ -32,7 +32,7 @@ Designed around real-world global logistics bottlenecks, Sentinel Operations con
 ### 1. Launch React Dashboard
 ```bash
 # Navigate to project root
-cd C:\Users\sanja\.gemini\antigravity-ide\scratch\sentinel-operations
+cd C:\Users\you project folder
 
 # Install dependencies
 npm install
